@@ -1,0 +1,20 @@
+services:
+  backend:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./server:/app
+    working_dir: /app
+    command: ["node", "src/app.js"]  # Change this if your entry point is different
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    volumes:
+      - ./client:/usr/share/nginx/html

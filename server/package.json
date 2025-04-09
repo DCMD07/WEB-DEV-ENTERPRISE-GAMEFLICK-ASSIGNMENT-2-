@@ -1,0 +1,14 @@
+{
+  "name": "assignment-3-backend",
+  "version": "1.0.0",
+  "description": "Free-to-Play Game Discovery Backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.9"
+  }
+}
