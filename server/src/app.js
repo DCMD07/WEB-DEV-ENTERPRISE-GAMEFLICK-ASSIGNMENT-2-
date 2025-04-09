@@ -1,5 +1,8 @@
-// Mohammed Aasim - Assignment 3
-// Prof: Mr. Ram | Date: Feb 26
+// Mohammed Aasim
+// Assignment 2 - GameFlick
+// Professor: Mr. Ram
+// Course: Web Development Enterprise
+// Date: April 4th, 2025
 
 const express = require("express");
 const cors = require("cors");
@@ -14,5 +17,5 @@ app.use("/api", gameRoutes);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`✅ Server running at http://localhost:${PORT}`);
+  console.log(` Server running at http://localhost:${PORT}`);
 });

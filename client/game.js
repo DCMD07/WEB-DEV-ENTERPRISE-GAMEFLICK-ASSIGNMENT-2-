@@ -1,3 +1,9 @@
+// Mohammed Aasim
+// Assignment 2 - GameFlick
+// Professor: Mr. Ram
+// Course: Web Development Enterprise
+// Date: April 4th, 2025
+
 window.onload = async () => {
     const params = new URLSearchParams(window.location.search);
     const title = params.get("title");

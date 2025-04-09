@@ -1,3 +1,13 @@
+/* 
+  Mohammed Aasim
+  Assignment 2 - GameFlick
+  Professor: Mr. Ram
+  Course: Web Development Enterprise
+  Date: April 4th, 2025
+*/
+
+
+
 /* Body Styling */
 body {
   background: #1a1a2e;
@@ -261,7 +271,7 @@ button:hover {
 }
 
 
-/* Neon border for all carousel and giveaway images */
+
 .neon-glow {
   border: 2px solid #0ff;
   box-shadow: 0 0 15px #0ff;
@@ -317,7 +327,7 @@ button:hover {
 
 .giveaway-track {
   display: flex;
-  width: calc(300px * 14); /* 7 images x2 for loop */
+  width: calc(300px * 14); 
   animation: scrollGiveaways 25s linear infinite;
   gap: 10px;
   padding: 10px;

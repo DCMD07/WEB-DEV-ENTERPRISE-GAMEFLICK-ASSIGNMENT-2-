@@ -1,3 +1,10 @@
+// Mohammed Aasim
+// Assignment 2 - GameFlick
+// Professor: Mr. Ram
+// Course: Web Development Enterprise
+// Date: April 4th, 2025
+
+
 // Utility to display games
 function renderGames(data) {
   const gameList = document.getElementById("gameList");
@@ -24,7 +31,7 @@ function renderGames(data) {
 function renderGiveaways(data) {
   const giveawayList = document.getElementById("giveawayList");
   
-  // 🧼 Clear all cards but preserve special messages
+
   const message = document.querySelector(".no-giveaway-message");
   giveawayList.innerHTML = message ? message.outerHTML : "";
 
@@ -64,7 +71,7 @@ window.onload = async () => {
     giveawayList.innerHTML = `<p>Unable to load giveaways. Check server.</p>`;
   }
 
-  // 🔍 Search input logic
+  //  Search input logic
   searchInput.addEventListener("input", async () => {
     const query = searchInput.value.trim();
     if (!query) {
@@ -92,7 +99,7 @@ window.onload = async () => {
               But here are some that might interest you!
             </p>
           `;
-          // Let the message show up before re-rendering
+      
           setTimeout(() => {
             renderGiveaways(generalGiveaways.slice(0, 16));
           }, 50);

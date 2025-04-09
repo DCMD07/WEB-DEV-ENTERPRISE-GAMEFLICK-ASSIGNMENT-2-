@@ -1,3 +1,9 @@
+// Mohammed Aasim
+// Assignment 2 - GameFlick
+// Professor: Mr. Ram
+// Course: Web Development Enterprise
+// Date: April 4th, 2025
+
 const express = require("express");
 const router = express.Router();
 const fetch = require("node-fetch");
